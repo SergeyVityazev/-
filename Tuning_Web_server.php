@@ -10,7 +10,7 @@ $data=json_decode($json,true);
 </head>
 <body>
 <table  cellpadding="7">
-    <tr>ТАБЛИЦА</tr>
+    <tr><h2>Контактные данные</h2></tr>
 
     <?php foreach ($data as $item){ ?>
         <tr>
